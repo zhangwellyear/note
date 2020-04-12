@@ -31,6 +31,9 @@
 `git commit -a -m <message>` 按照`message`信息提交，因为加上了命令`-a`, 所以会自动把所有已经跟踪过的文件暂存起来一并提交。（往往用在一次性提交所有修改文件时）
 `git remote` 列出指定的每一个远程服务器的简写
 `git remote -v` 显示远程服务器简写及其URL
+`git remote add <shortname> <url>` 将地址为`url`的远程仓库添加到本地，同时用`shortname`来进行简写
+`git fetch <shortname>` 可以获取上文中使用`shortname`指定的`url`远程仓库的内容
+`git fetch <url>` 如果没有使用上面命令中的`shortname`，就需要指定详细的`url`以获取远程仓库的内容，拉取后会拥有远程仓库中所有**分支的引用**
 
 ### `git`的基础应该学会的
 + 配置并初始化一个仓库
