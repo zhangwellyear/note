@@ -31,5 +31,15 @@
   - 减少服务器端压力
   - 加快客户端网页加载速度
 
+### 条件GET
+`HTTP`条件`GET`是为了减少不必要的带宽，提出的一种方案
 
-  
+可以依据的一些属性：
++ `If-Modified-Since`
+
+### 持久连接
+#### HTTP1.0
++ `Connection: Keep-Alive`
+#### HTTP1.1
++ 默认都会发起`Keep-Alive`的连接请求
+
