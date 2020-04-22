@@ -32,3 +32,4 @@
 + 当有一组`observables`, 只关心每个`observable`最后发出的值，该操作符最为合适
 + `pairwise`返回一对数字，一个是当前值，一个是前一个值
 + `startWith`改变起始值
++ `withLatestFrom`获取传入的`Observable`的最新值
