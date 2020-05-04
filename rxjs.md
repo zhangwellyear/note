@@ -33,3 +33,8 @@
 + `pairwise`返回一对数字，一个是当前值，一个是前一个值
 + `startWith`改变起始值
 + `withLatestFrom`获取传入的`Observable`的最新值
++ `zip`等待所有的`observable`发出后，将所有的值作为数组发出
+
+### 条件
+- `defaultEmpty` —— 1. 没有值的`Observable.of`; 2. `Observable.empty`的默认值
+- `every` —— 跟`ES`中的`every`类似
